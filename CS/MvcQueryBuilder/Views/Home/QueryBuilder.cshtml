@@ -1,0 +1,5 @@
+﻿@Html.DevExpress().QueryBuilder(settings => {
+    settings.Name = "QueryBuilder";
+    settings.RouteValues = new { Controller = "QueryBuilder", Action = "Invoke" };
+    settings.SaveCallbackRouteValues = new { Controller = "QueryBuilder", Action = "Save" };
+}).Bind("NorthwindConnection").GetHtml()
