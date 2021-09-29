@@ -4,7 +4,7 @@ Imports DevExpress.Web.Mvc
 Namespace MvcQueryBuilder.Controllers
     ' Processes Query Builder requests.
     Public Class QueryBuilderController
-        Inherits DevExpress.Web.Mvc.Controllers.QueryBuilderApiControllerBase
+        Inherits DevExpress.Web.Mvc.Controllers.QueryBuilderApiController
 
         Public Overrides Function Invoke() As ActionResult
             Return MyBase.Invoke()
