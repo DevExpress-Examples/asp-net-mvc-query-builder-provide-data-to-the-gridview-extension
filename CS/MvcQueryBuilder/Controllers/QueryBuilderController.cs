@@ -3,7 +3,7 @@ using DevExpress.Web.Mvc;
 
 namespace MvcQueryBuilder.Controllers {
     // Processes Query Builder requests.
-    public class QueryBuilderController : DevExpress.Web.Mvc.Controllers.QueryBuilderApiController {
+    public class QueryBuilderController : DevExpress.Web.Mvc.Controllers.QueryBuilderApiControllerBase {
         public override ActionResult Invoke() {
             return base.Invoke();
         }

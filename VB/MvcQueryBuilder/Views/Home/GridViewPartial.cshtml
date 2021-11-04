@@ -1,0 +1,6 @@
+﻿@Html.DevExpress().GridView(settings => {
+    settings.Name = "grid";
+    settings.Width = Unit.Percentage(100);
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+    settings.SettingsBehavior.AllowEllipsisInText = true;
+}).Bind(Model).GetHtml()
