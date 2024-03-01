@@ -2,6 +2,7 @@ Imports System.Web.Mvc
 Imports DevExpress.Web.Mvc
 
 Namespace MvcQueryBuilder.Controllers
+
     ' Processes Query Builder requests.
     Public Class QueryBuilderController
         Inherits DevExpress.Web.Mvc.Controllers.QueryBuilderApiControllerBase

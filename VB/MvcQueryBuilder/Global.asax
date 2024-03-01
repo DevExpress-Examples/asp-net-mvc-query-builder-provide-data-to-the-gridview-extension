@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="MvcQueryBuilder.MvcApplication" Language="vb" %>
+<%@ Application Codebehind="Global.asax.vb" Inherits="MvcQueryBuilder.MvcApplication" Language="VB" %>
